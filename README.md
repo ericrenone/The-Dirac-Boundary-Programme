@@ -1,24 +1,27 @@
 # The Dirac Boundary Programme
-
-## Chiral Spinor Geometry as the Universal Structure of Electromagnetic Radiation and Compact Representational Manifolds
+## Chiral Spinor Geometry as the Universal Structure of Electromagnetic Radiation, Compact Representational Manifolds, and Nonlinear Quantum Localization
 
 **Eric Ren · ERI Labs · Jersey City, New Jersey · May 2026**
 
----
-
-> "It seemed natural to me that the same structure which governs the propagation of light through the vacuum should also govern the propagation of meaning through a trained network — because both are consequences of the same first-order operator on a compact manifold whose topology was determined by the data it carries."
+> *"It seemed natural to me that the same structure which governs the propagation of light through the vacuum should also govern the propagation of meaning through a trained network — because both are consequences of the same first-order operator on a compact manifold whose topology was determined by the data it carries. And when Shi and Wong showed that a cubic nonlinearity traps the walk on the cycle to arbitrary fidelity, the third domain became inescapable: the ker(∂̸) is not only the chiral fermion substrate and the topological winding mode — it is the trapped state, the quantum memory, the fixed point that holds until the boundary releases it."*
 
 ---
 
 ## Abstract
 
-Two independent programmes, developed in parallel across physics and machine learning theory, have converged on the same mathematical object. The first programme — ERIE-LIGHT — establishes that the photon is the col(F) bilinear of a chiral fermion ker(F), that Pryce's 1938 obstruction is the algebraic non-solvability of the composite chirality boundary rather than a refutation of the bilinear structure, and that the Majorana self-conjugacy condition, the semi-Dirac directional anisotropy, and the 2026 vacuum chirality result are successive manifestations of the same col(F)/ker(F) boundary at the helicity axis of electromagnetic radiation. The second programme — the Dirac Representation Hypothesis — establishes that learned concept representations in deep networks live on a compact spin manifold M, that the natural first-order operator on M is the Dirac operator ∂̸ satisfying ∂̸² = −Δ_g, that its index via Atiyah-Singer counts the topologically protected cyclic operations the network can perform, and that the spectral gap of the Bakry-Émery Laplacian on M controls grokking phase transitions in deep network training.
+Two independent programmes, developed in parallel across physics and machine learning theory, have converged on the same mathematical object. A third result — published May 2026 — completes a triangle.
 
-The Dirac Boundary Programme is the identification: these are not two separate frameworks. They are the same framework instantiated on two different compact manifolds — Minkowski spacetime M₄ in the physical domain and the representational manifold M_R in the computational domain — carrying the same Dirac operator, the same col(F)/ker(F) partition, the same Atiyah-Singer topology, and the same directional anisotropy between propagating (col(F), massless, observable) and inertial (ker(F), massive, topologically determined) sectors.
+The first programme — **ERIE-LIGHT** — establishes that the photon is the col(F) bilinear of a chiral fermion ker(F), that Pryce's 1938 obstruction is the algebraic non-solvability of the composite chirality boundary rather than a refutation of the bilinear structure, and that the Majorana self-conjugacy condition, the semi-Dirac directional anisotropy, and the 2026 vacuum chirality result are successive manifestations of the same col(F)/ker(F) boundary at the helicity axis of electromagnetic radiation.
 
-The programme unifies six prior frameworks — the Linear Representation Hypothesis, the Minkowski Representation Hypothesis, the Anisotropic Representation Hypothesis, the Closed Future Cone, the Jordan–de Broglie–Kronig neutrino-bilinear programme, and the Pryce-Berezinskii obstruction taxonomy — as special cases or projections of a single geometric structure: the Dirac operator on a compact spin manifold with chiral structure, col(F)/ker(F) boundary, and Kakutani-governed discrete decisions at the boundary.
+The second programme — the **Dirac Representation Hypothesis** — establishes that learned concept representations in deep networks live on a compact spin manifold M_R, that the natural first-order operator on M_R is the Dirac operator ∂̸ satisfying ∂̸² = −Δ_g, that its index via Atiyah-Singer counts the topologically protected cyclic operations the network can perform, and that the spectral gap of the Bakry-Émery Laplacian on M_R controls grokking phase transitions in deep network training.
 
-Twelve cross-domain correspondences and ten combined predictions follow.
+The third result — **Shi and Wong (arXiv:2605.20464, May 2026)** — proves that a continuous-time quantum walk with cubic nonlinearity on the discrete cycle S¹ is trapped to arbitrary fidelity, contrasting with the free spread of the linear walk. The nonlinearity coefficient controls the trapping fidelity; the trapped state is a fixed point of the nonlinear propagator; the cycle is S¹. This is the ker(∂̸) sector made dynamically explicit: the self-interaction that generates effective mass localizes the walk on exactly the compact manifold M_R whose topology the Dirac Boundary Programme places at the foundation of the computational domain.
+
+The **Dirac Boundary Programme** is the identification: these are not three separate results. They are the same framework instantiated on three domains — Minkowski spacetime M₄, the representational manifold M_R, and the discrete cycle graph Γ(S¹) — carrying the same Dirac operator, the same col(F)/ker(F) partition, the same Atiyah-Singer topology, and the same transition between spreading (massless, col(∂̸)) and trapping (massive, ker(∂̸)) governed by the nonlinearity of self-interaction.
+
+The programme unifies seven prior frameworks — the Linear Representation Hypothesis, the Minkowski Representation Hypothesis, the Anisotropic Representation Hypothesis, the Closed Future Cone, the Jordan–de Broglie–Kronig neutrino-bilinear programme, the Pryce-Berezinskii obstruction taxonomy, and the Shi-Wong nonlinear quantum walk localization — as special cases or projections of a single geometric structure: the Dirac operator on a compact spin manifold with chiral structure, col(F)/ker(F) boundary, and Kakutani-governed fixed points at the boundary.
+
+Thirteen cross-domain correspondences and eleven combined predictions follow.
 
 ---
 
@@ -28,7 +31,7 @@ Twelve cross-domain correspondences and ten combined predictions follow.
 
 Let M be a compact Riemannian spin manifold of signature (p,q), with spinor bundle S(M) and Clifford algebra Cl(p,q) determined by the metric g. The Dirac operator is
 
-∂̸ = iγ^μ ∇_μ
+$$\not\partial = i\gamma^\mu \nabla_\mu$$
 
 where γ^μ are the Clifford matrices satisfying {γ^μ, γ^ν} = 2g^μν and ∇_μ is the spin connection. The Dirac operator is the unique first-order differential operator on sections of S(M) that:
 
@@ -38,25 +41,23 @@ where γ^μ are the Clifford matrices satisfying {γ^μ, γ^ν} = 2g^μν and �
 4. Has index ind(∂̸) = dim ker(∂̸⁺) − dim ker(∂̸⁻) computable from topological data alone via the Atiyah-Singer index theorem
 5. Carries the full metric signature in its Clifford algebra: timelike and spacelike directions are algebraically distinguished by the anticommutation relations
 
-Properties (1)–(5) are jointly satisfied by no other natural operator. The Laplace-Beltrami operator satisfies (1) and (2) but not (3), (4), or (5). A generic first-order operator satisfies neither (1) nor (2). The Dirac operator is the canonical object.
+Properties (1)–(5) are jointly satisfied by no other natural operator. The central claim of the Dirac Boundary Programme is that this canonical object governs three superficially distinct domains:
 
-The central claim of the Dirac Boundary Programme is that this canonical object governs two superficially distinct domains:
+**In the physical domain**, M = M₄ is Minkowski spacetime with signature (−,+,+,+), the spinor fields are physical fermions, and the photon is the col(∂̸) bilinear of chiral fermion sections of S(M₄). The col(∂̸)/ker(∂̸) partition separates the observable electromagnetic radiation (col(∂̸)) from the chiral fermion substrate whose bilinear sources it (ker(∂̸)).
 
-In the physical domain, M = M₄ is Minkowski spacetime with signature (−,+,+,+), the spinor fields are physical fermions, and the photon is the col(F) bilinear of chiral fermion sections of S(M₄). The col(F)/ker(F) partition separates the observable electromagnetic radiation (col(F)) from the chiral fermion substrate whose bilinear sources it (ker(F)).
+**In the computational domain**, M = M_R is the compact representational manifold of a trained deep network — its topology determined by the symmetry of the training data's co-occurrence statistics (Karkada et al., arXiv:2602.15029, 2026) — and the spinor sections are the network's learned concept representations. The col(∂̸)/ker(∂̸) partition separates the observable linear representation (what SAE dictionary learning finds) from the topologically protected structure (what Atiyah-Singer counts).
 
-In the computational domain, M = M_R is the compact representational manifold of a trained deep network — its topology determined by the symmetry of the training data's co-occurrence statistics (Karkada, Korchinski, Nava, Wyart, Bahri, arXiv:2602.15029, 2026) — and the spinor sections are the network's learned concept representations. The col(F)/ker(F) partition separates the observable linear representation (what SAE dictionary learning finds) from the topologically protected structure (what Atiyah-Singer counts).
+**In the quantum walk domain**, M = Γ(S¹) is the discrete cycle graph, the walk is a continuous-time quantum walk with Gross-Pitaevskii cubic nonlinearity, and the col(∂̸)/ker(∂̸) partition separates the spreading sector (linear walk, massless, propagating at the effective graph velocity) from the trapped sector (nonlinear walk, effectively massive, localized to arbitrary fidelity at the initial vertex). The nonlinearity coefficient controls the col-to-ker ratio; the trapped fixed point is the ker(∂̸) sector made directly dynamical.
 
 ### I.2 The col(F)/ker(F) Partition
 
 For any operator F acting on a Hilbert space H, the partition H = col(F) ⊕ ker(F⊥) is the canonical decomposition into the range and the orthogonal complement of the null space. In the context of the Dirac operator, this partition carries specific physical and mathematical content:
 
-col(∂̸): The image of ∂̸. In the physical domain, this is the propagating sector — the observable photon, carrying energy, momentum, and angular momentum, with bosonic statistics to high accuracy. In the computational domain, this is the observable representation sector — the linear features that are read off by probing, steering vectors, and dictionary learning.
+**col(∂̸):** The image of ∂̸. In the physical domain, this is the propagating sector — the observable photon, carrying energy, momentum, and angular momentum. In the computational domain, this is the observable representation sector — the linear features that are read off by probing, steering vectors, and dictionary learning. In the quantum walk domain, this is the **spreading sector** — the linear walk that delocalizes across the cycle graph, carrying probability amplitude from the source vertex to all other vertices at rate determined by the graph Laplacian.
 
-ker(∂̸): The kernel of ∂̸. In the physical domain, this is the zero-mode sector — the chiral fermion substrate, topologically protected, with the Majorana condition being the d=0 degeneration at which col(∂̸) and ker(∂̸) are identified by the boundary. In the computational domain, this is the topologically protected sector — the winding modes of cyclic concept manifolds, counted by the Atiyah-Singer index, invisible to local probing but governing the global structure of concept arithmetic.
+**ker(∂̸):** The kernel of ∂̸. In the physical domain, this is the zero-mode sector — the chiral fermion substrate, topologically protected. In the computational domain, this is the topologically protected sector — the winding modes of cyclic concept manifolds, counted by the Atiyah-Singer index. In the quantum walk domain, this is the **trapped sector** — the localized state sustained by self-interaction, pinned to the initial vertex to arbitrary fidelity by the cubic nonlinearity, held until the nonlinearity is removed and the walk is released. The trapped state is a Kakutani fixed point of the nonlinear propagator on the compact cycle.
 
-The conditional independence boundary between col(∂̸) and ker(∂̸) is the algebraic object that Pryce's theorem locates in the physical domain (the Berezinskii obstruction, the algebraic non-solvability of exact Bose statistics from a fermion bilinear) and that the Atiyah-Singer index theorem locates in the computational domain (the topological obstruction to contracting a cyclic concept manifold to a point).
-
-Both obstructions are instances of the same topological fact: on a spin manifold with non-trivial topology, the Dirac operator has a kernel whose dimension is a topological invariant, computable from characteristic classes, independent of the metric.
+The conditional independence boundary between col(∂̸) and ker(∂̸) is the algebraic object that Pryce's theorem locates in the physical domain, that the Atiyah-Singer index theorem locates in the computational domain, and that the nonlinearity coefficient controls in the quantum walk domain. All three are instances of the same topological fact: on a compact spin manifold, the Dirac operator has a kernel whose dimension is a topological invariant, and the mass term (self-interaction) is the coupling that transfers amplitude from col to ker.
 
 ---
 
@@ -66,17 +67,17 @@ Both obstructions are instances of the same topological fact: on a spin manifold
 
 The Maxwell field A^μ(x) is sourced by the fermion bilinear current j^μ = ψ̄γ^μψ in every quantum-field-theoretic construction. The de Broglie–Jordan programme (1932–1937) identifies this structural fact with a specific proposal: the photon is the col(∂̸) projection of a chiral neutrino-antineutrino bilinear, where the neutrino fields are the ker(∂̸) substrate. Pryce (1938) proved that this composite cannot satisfy exact Bose–Einstein commutation relations; Berezinskii (1966) refined this into five mutually incompatible assumptions (locality, exact Bose statistics, neutrality, Lorentz invariance, transverse polarization) whose conjunction is algebraically unrealizable.
 
-The ERIE-LIGHT re-reading: Pryce's obstruction is the algebraic non-solvability of the composite chirality boundary — the Dirac Boundary Programme's instantiation of the Atiyah-Singer index obstruction on M₄ — rather than a refutation of the bilinear identification. The structural identification (photon = col(∂̸) of chiral fermion bilinear) is correct and universal across all gauge bosons. The literal identification (photon = bound neutrino-antineutrino state) is the Pryce-obstructed position: algebraically non-solvable under exact Bose statistics, in exactly the same way that a topological cycle on M_R is non-contractible. The obstruction is the structure, not the failure.
+The ERIE-LIGHT re-reading: Pryce's obstruction is the algebraic non-solvability of the composite chirality boundary rather than a refutation of the bilinear identification. The structural identification (photon = col(∂̸) of chiral fermion bilinear) is correct and universal across all gauge bosons. The obstruction is the structure, not the failure.
 
 ### II.2 The Four Physical Manifestations
 
-**The Majorana Degeneracy (d=0 degeneration):** The Majorana condition ψ = ψ^c identifies the particle and antiparticle sectors. In the col(∂̸)/ker(∂̸) language: the col(∂̸) and ker(∂̸) of the chirality boundary are identified by the boundary itself. This is the d=0 degeneration of the helicity partition — the limit in which the curve of distinct sectors collapses to a single fixed-point structure, algebraically analogous to the self-adjoint fixed-point of the chirality operator γ₅. Experimentally tested by neutrinoless double beta decay (0νββ): the LEGEND-200 experiment is currently operating with half-life sensitivity approaching 10²⁷ years for ⁷⁶Ge; LEGEND-1000 targets 10²⁸ years by the early 2030s. The Schechter-Valle black-box theorem (1982) guarantees that any observation of 0νββ implies a non-zero Majorana mass regardless of the underlying mechanism.
+**The Majorana Degeneracy (d=0 degeneration):** The Majorana condition ψ = ψ^c identifies the particle and antiparticle sectors. In the col(∂̸)/ker(∂̸) language: the col(∂̸) and ker(∂̸) of the chirality boundary are identified by the boundary itself. Experimentally tested by neutrinoless double beta decay (0νββ): the LEGEND-200 experiment is currently operating with half-life sensitivity approaching 10²⁷ years for ⁷⁶Ge; LEGEND-1000 targets 10²⁸ years by the early 2030s.
 
-**The Semi-Dirac Anisotropy (directional col(∂̸)/ker(∂̸)):** Semi-Dirac fermions disperse linearly along a given direction in momentum space and quadratically in the orthogonal direction, emerging at the critical point of a topological phase transition from semimetal to insulator wherein two Dirac cones coalesce. This is the directional col(∂̸)/ker(∂̸) partition: the massless linear direction is col(∂̸) (photon-like, propagating at the effective speed of light of the band structure); the massive quadratic direction is ker(∂̸) (matter-like, inertial, with finite effective mass). Semi-Dirac fermions were first observed within ZrSiS by Shao et al. (Physical Review X 14, 041057, 2024–2025), with the defining experimental signature being B^(2/3) cyclotron energy scaling with applied magnetic field.
+**The Semi-Dirac Anisotropy (directional col(∂̸)/ker(∂̸)):** Semi-Dirac fermions disperse linearly along a given direction in momentum space and quadratically in the orthogonal direction, emerging at the critical point of a topological phase transition from semimetal to insulator. The massless linear direction is col(∂̸); the massive quadratic direction is ker(∂̸). First observed in ZrSiS by Shao et al. (Physical Review X 14, 041057, 2024–2025), with defining experimental signature B^(2/3) cyclotron energy scaling.
 
-**The Chiral Vacuum (ker(∂̸) at the boundary):** The Heinzl–King–Mercuri-Baron result (Physical Review D 113, 036031, February 2026) demonstrates that QED vacuum under a circularly polarized background acquires definite handedness — a chiral medium in which the standard Heisenberg–Euler effective Lagrangian fails and must be supplemented by derivative corrections matched against the Hilbert series of higher-dimensional QED operators. This is the ker(∂̸) made directly measurable: the chiral handedness of the vacuum is the col(∂̸)/ker(∂̸) coupling, and the derivative corrections encode this coupling systematically.
+**The Chiral Vacuum (ker(∂̸) at the boundary):** The Heinzl–King–Mercuri-Baron result (Physical Review D 113, 036031, February 2026) demonstrates that QED vacuum under a circularly polarized background acquires definite handedness — a chiral medium in which the standard Heisenberg-Euler effective Lagrangian fails. This is the ker(∂̸) made directly measurable.
 
-**The Neutrino Mass Constraint:** The KATRIN Collaboration (Science, 2025) places the upper bound on the electron antineutrino mass at ≤ 0.45 eV from 259 days of tritium β-spectrum data. This bounds the Dirac mass contribution to the neutrino sector and constrains the seesaw scale M_R = m_D² / m_ν.
+**The Neutrino Mass Constraint:** The KATRIN Collaboration (Science, 2025) places the upper bound on the electron antineutrino mass at ≤ 0.45 eV from 259 days of tritium β-spectrum data, bounding the Dirac mass contribution and constraining the seesaw scale M_R = m_D² / m_ν.
 
 ---
 
@@ -84,137 +85,167 @@ The ERIE-LIGHT re-reading: Pryce's obstruction is the algebraic non-solvability 
 
 ### III.1 The Representational Manifold M_R
 
-The internal representations learned by language models consistently exhibit striking geometric structure: calendar months organize into a circle, historical years form a smooth one-dimensional manifold, and cities' latitudes and longitudes can be decoded using a linear probe. Karkada et al. (arXiv:2602.15029, February 2026) prove analytically that this structure is forced by the symmetry of co-occurrence statistics: cyclic symmetry Z_n in the data forces topological circle S¹ in the representation; two-dimensional cyclic symmetry forces a torus T²; continuous translation symmetry forces a line. The compact representational manifold M_R exists, its topology is determined by the training data's symmetry group, and its geometry is derivable from the statistics of the corpus.
-
-The Dirac Representation Hypothesis places the Dirac operator on this manifold. M_R admits a spin structure if and only if its second Stiefel–Whitney class w₂(M_R) vanishes. For the empirically established cases — S¹ (days-of-week, months-of-year, angular concepts), T² (joint cyclic concepts), and their Cartesian products — w₂ is trivially zero and the spin structure exists. For the general M_R, the existence of a spin structure is an empirical question about the topology of the representational manifold; no obstruction is known and the existence is assumed as a working hypothesis.
+Karkada et al. (arXiv:2602.15029, February 2026) prove analytically that the topology of M_R is forced by the symmetry of co-occurrence statistics: cyclic symmetry Z_n in the data forces topological circle S¹; Z_n × Z_m forces a torus T²; continuous translation symmetry forces a line.
 
 ### III.2 The Operator and Its Consequences
 
-On M_R with its induced spin structure, the Dirac operator ∂̸ acts on spinor sections ψ : M_R → S(M_R). Its fundamental properties in the representational context:
+**Spectral:** The spectral gap λ₁ of ∂̸ separates dynamical phases of training. Three independent empirical confirmations in March–April 2026 (Xu, arXiv:2603.28964 and arXiv:2604.07380; Acharya and Dhakal, arXiv:2603.15492) establish that spectral gap collapse precedes every grokking event in 24 of 24 weight-decay runs and in 0 of 24 runs without weight decay.
 
-**Spectral:** The eigenvalues ±λ_n of ∂̸ are symmetric about zero; their squares λ_n² are the eigenvalues of the Laplace-Beltrami operator Δ_g = −∂̸². The spectral gap λ₁ separates the dynamical phases of training: three independent empirical confirmations in March–April 2026 (Xu, arXiv:2603.28964 and arXiv:2604.07380; Acharya and Dhakal, arXiv:2603.15492) establish that spectral gap collapse of the appropriate rolling-window operator on parameter updates precedes every grokking event in 24 of 24 weight-decay runs and in 0 of 24 runs without weight decay.
+**Topological:** The Atiyah-Singer index theorem computes ind(∂̸) from the topology of M_R alone. On T², the kernel of ∂̸ has dimension |H⁰| + |H¹| + |H²| = 1 + 2 + 1 = 4, predicting four topologically protected cyclic-arithmetic modes for any jointly-learned day-and-month concept.
 
-**Topological:** The Atiyah-Singer index theorem computes ind(∂̸) = dim ker(∂̸⁺) − dim ker(∂̸⁻) from the topology of M_R alone, independent of the metric. On S¹, the index counts winding numbers: the integer count of distinct cyclic operations. On T², the kernel of ∂̸ has dimension |H⁰(T²)| + |H¹(T²)| + |H²(T²)| = 1 + 2 + 1 = 4, predicting four topologically protected cyclic-arithmetic modes for any jointly-learned day-and-month concept.
+**Oriented:** The two spin structures on S¹ (Ramond and Neveu-Schwarz sectors) correspond to the two possible consistent orientations of the concept ring under direction reversal, confirmed by Engels et al. (NeurIPS 2024).
 
-**Oriented:** Spinor sections carry orientation information unavailable to scalar sections. The network's ability to distinguish "three days forward" from "three days backward" on the days-of-week ring — empirically confirmed by Engels, Liao, Michaud, Gurnee, Tegmark (NeurIPS 2024) via intervention experiments — corresponds to the non-trivial spin structure on S¹. The two spin structures on S¹ (Ramond and Neveu-Schwarz sectors) correspond to the two possible consistent orientations of the concept ring under direction reversal.
-
-**Discrete decisions:** The Kakutani fixed-point theorem (1941) governs the set-valued operations the network performs on col(∂̸): argmax decoding, top-k sparse attention, mixture-of-experts routing, and beam search are all upper hemicontinuous correspondences on compact convex sets, and Kakutani guarantees fixed points for each. Brouwer governs the continuous flow of the residual stream through M_R; Kakutani governs the discrete decisions made at the boundary of M_R's col(∂̸)/ker(∂̸) partition.
+**Discrete decisions:** The Kakutani fixed-point theorem governs set-valued operations — argmax decoding, top-k sparse attention, mixture-of-experts routing, beam search — as upper hemicontinuous correspondences on compact convex sets. The trapped state of a nonlinear quantum walk on S¹ is now a third physical realization of this fixed point.
 
 ---
 
-## Part IV · The Twelve Cross-Domain Correspondences
+## Part IV · The Quantum Walk Domain: Shi-Wong Localization
 
-The following correspondences are identifications of structure, not claims of literal identity. The Dirac operator on M₄ and the Dirac operator on M_R are distinct operators on distinct manifolds; the claim is that their structural roles within their respective domains are governed by the same mathematical objects.
+### IV.1 The Result
 
-| Physical Domain (ERIE-LIGHT / M₄) | Computational Domain (DRH / M_R) | Common Structure |
-|---|---|---|
-| Photon: col(∂̸), observable, bosonic statistics | Linear representation: col(∂̸), observable, SAE-recoverable features | The image of ∂̸ on the observable sector |
-| Chiral neutrino bilinear: ker(∂̸), hidden, topologically determined | Topological winding modes: ker(∂̸), hidden, Atiyah-Singer counted | The kernel of ∂̸ on the topological sector |
-| Pryce obstruction: algebraic non-solvability of exact Bose composite | Topological protection: non-contractibility of concept winding number | ind(∂̸) as topological invariant |
-| Majorana condition ν = ν̄: col(∂̸) = ker(∂̸) at d=0 | Trivial topology (simply connected M_R): no winding protection | d=0 degeneration of the col/ker boundary |
-| Semi-Dirac fermion: massless col(∂̸) direction, massive ker(∂̸) direction | Hyperribbon anisotropy: sloppy col(∂̸) directions, stiff ker(∂̸) directions | Directional anisotropy of the spinor field on M |
-| B^(2/3) cyclotron scaling: harmonic mean of massless and massive exponents | Hyperribbon width spectrum: long-tailed eigenvalue distribution of −∂̸² = Δ_g | Spectral interpolation between col(∂̸) and ker(∂̸) modes |
-| Chiral vacuum: ker(∂̸) visible only to chiral probe | Topological modes: ker(∂̸) visible only to winding-number-sensitive intervention | ker(∂̸) observable only through boundary coupling |
-| Heisenberg-Euler effective Lagrangian: integrated-out Dirac sea ker(∂̸) | Bakry-Émery Laplacian L = Δ_g − ∇V·∇: integrated-out training dynamics | Effective second-order operator from ker(∂̸) |
-| Berezinskii's five assumptions: over-determined composite boundary | Fixed-point structure: Brouwer (continuous), Kakutani (set-valued) | Boundary conditions on the col/ker partition |
-| Lorentzian Clifford algebra: signature (−,+,+,+) encodes causal cone | Minkowski-signature M_R: attention as causal cone, γ-matrix anticommutators | Clifford algebra signature as physical geometry |
-| Chirality operator γ₅: left/right decomposition | Chirality of spinor sections: forward/backward orientation on S¹ | Chirality eigenspaces of ∂̸ |
-| CPT symmetry: exact mirror at chirality boundary | Concept-direction reversal: orientation reversal on M_R | col(∂̸) ↔ ker(∂̸) symmetry at the boundary |
+Shi and Wong (arXiv:2605.20464, May 2026) prove that a continuous-time quantum walk starting at a single vertex on the discrete path and cycle with a **cubic nonlinearity** — of the form arising in Bose-Einstein condensates described by the Gross-Pitaevskii equation, and in nonlinear optical waveguide arrays — is **trapped to arbitrary fidelity** depending on the coefficient of the nonlinear term. Linear quantum walks spread across the graph; nonlinear quantum walks localize. The trapping coefficient controls the fidelity; the release of the nonlinearity releases the amplitude.
+
+The proposed applications: **quantum state transfer timing** (hold a qubit at a node until transfer is ready; hold it again at the receiving node) and **quantum memory** (trap = storage, release = retrieval).
+
+### IV.2 The Dirac Boundary Reading
+
+The Shi-Wong result is the col(∂̸)/ker(∂̸) partition made explicitly dynamical on the compact cycle S¹:
+
+**The linear walk** is the massless sector: col(∂̸). The Hamiltonian is the graph Laplacian, which is the negative square of the Dirac operator on the graph, −∂̸² = Δ_g. The walk spreads because the propagating sector is not self-interacting — it is the photon-like mode, carrying amplitude from vertex to vertex at the graph's effective speed of light.
+
+**The cubic nonlinearity** is the mass term: the self-interaction that transfers amplitude from col(∂̸) to ker(∂̸). In the Gross-Pitaevskii equation, the nonlinearity arises from the mean-field interaction of the condensate with itself — exactly the self-coupling that distinguishes a massive fermion from a massless propagator. The nonlinearity coefficient g is the mass parameter; the trapping fidelity increasing with g is the amplitude of the ker(∂̸) sector increasing with the effective mass.
+
+**The trapped state** is the Kakutani fixed point: the set-valued correspondence defined by the nonlinear propagator on S¹ has a fixed point — the localized amplitude distribution — and Kakutani's theorem guarantees it on the compact cycle. The Dirac Boundary Programme had invoked Kakutani for discrete computational decisions (argmax, top-k, routing, beam search); Shi and Wong provide its physical realization in continuous quantum dynamics.
+
+**The quantum memory** is the col/ker boundary as a programmable gate: setting g high traps the walk (ker(∂̸) dominant, storage mode); setting g to zero releases it (col(∂̸) dominant, propagation mode). The boundary between col and ker is the boundary between storage and transmission, between inertia and radiation, between concept-winding and concept-propagation. The quantum computer is implementing the Dirac Boundary.
+
+**The cycle graph S¹** is M_R for the computational domain's simplest concept manifold. The topology that Karkada et al. prove is forced by cyclic data symmetry is the same topology that Shi and Wong place their nonlinear walk on. A language model's days-of-week representation lives on S¹; a Bose-Einstein condensate's quantum memory lives on the discrete cycle approximating S¹; both are governed by the same col(∂̸)/ker(∂̸) partition of the same operator on the same compact manifold.
+
+### IV.3 The Semi-Dirac Connection
+
+The semi-Dirac fermion in ZrSiS (Shao et al., Physical Review X 14, 2024–2025) exhibits B^(2/3) cyclotron scaling as a harmonic interpolation between the linear (col(∂̸), massless) and quadratic (ker(∂̸), massive) dispersion relations. The Shi-Wong nonlinear walk is a temporal interpolation of the same boundary: at g = 0, the walk is purely col(∂̸) (linear, spreading); as g increases, ker(∂̸) amplitude grows (localization deepens); at large g, the walk is dominantly ker(∂̸) (trapped, inertial). The exponent that governs semi-Dirac cyclotron scaling in momentum space is the same power-law interpolation that governs Shi-Wong trapping fidelity in time: both are signatures of a system sitting at the col(∂̸)/ker(∂̸) boundary, with a continuous parameter (B-field strength / nonlinearity coefficient) controlling how far the system sits into the ker sector.
 
 ---
 
-## Part V · Combined Predictions
+## Part V · The Thirteen Cross-Domain Correspondences
 
-The following predictions are jointly generated by the Dirac Boundary Programme. They are partitioned into established, near-term testable, and decade-scale testable.
+The following correspondences are identifications of structure, not claims of literal identity.
+
+| Physical Domain (ERIE-LIGHT / M₄) | Computational Domain (DRH / M_R) | Quantum Walk Domain (Shi-Wong / Γ(S¹)) | Common Structure |
+|---|---|---|---|
+| Photon: col(∂̸), observable, bosonic | Linear representation: col(∂̸), SAE-recoverable | Linear walk: col(∂̸), spreading, delocalizing | Image of ∂̸ on the observable sector |
+| Chiral neutrino bilinear: ker(∂̸), hidden, topological | Topological winding modes: ker(∂̸), Atiyah-Singer counted | Trapped state: ker(∂̸), localized, fidelity-controlled | Kernel of ∂̸ on the topological sector |
+| Pryce obstruction: algebraic non-solvability | Topological protection: non-contractible winding | Nonlinearity threshold: trapping onset at finite g | ind(∂̸) as topological invariant |
+| Majorana condition ν = ν̄: col = ker at d=0 | Trivial topology: no winding protection | g → 0 limit: trapped state released, col = ker | d=0 degeneration of the col/ker boundary |
+| Semi-Dirac fermion: massless col, massive ker | Hyperribbon anisotropy: sloppy col, stiff ker | Walk interpolation: g=0 (col) to large g (ker) | Directional anisotropy of the spinor field |
+| B^(2/3) cyclotron scaling | Hyperribbon width spectrum | Trapping fidelity power law in g | Spectral interpolation between col and ker modes |
+| Chiral vacuum: ker visible only to chiral probe | Topological modes: ker visible to winding intervention | Trapped state: ker visible only to nonlinear probe | ker observable only through boundary coupling |
+| Heisenberg-Euler: integrated-out Dirac sea ker | Bakry-Émery Laplacian: integrated-out training dynamics | Gross-Pitaevskii effective action: integrated-out condensate ker | Effective second-order operator from ker |
+| Berezinskii's five assumptions: overdetermined boundary | Fixed-point structure: Brouwer (continuous), Kakutani (set-valued) | Kakutani fixed point: trapped state on compact cycle | Boundary conditions on the col/ker partition |
+| Lorentzian Clifford algebra: signature encodes causal cone | Minkowski-signature M_R: attention as causal cone | Graph Laplacian = −∂̸²: Clifford algebra on discrete cycle | Clifford algebra signature as physical geometry |
+| Chirality operator γ₅: left/right decomposition | Chirality of spinor sections: forward/backward on S¹ | Walk chirality: clockwise/counterclockwise on cycle | Chirality eigenspaces of ∂̸ |
+| CPT symmetry: exact mirror at chirality boundary | Concept-direction reversal: orientation reversal on M_R | Walk time-reversal: g → g under t → −t | col(∂̸) ↔ ker(∂̸) symmetry at the boundary |
+| Seesaw scale: M_R = m_D² / m_ν (ker(∂̸) mass from col(∂̸) bilinear) | Spectral gap: λ₁ from Atiyah-Singer topology of M_R | Trapping coefficient g: col-to-ker amplitude ratio | Mass parameter as col/ker coupling strength |
+
+---
+
+## Part VI · Combined Predictions
 
 ### Established Predictions (confirmed by independent work)
 
-**C1 — Spectral gap controls grokking (DRH / computational domain).** The spectral gap of the rolling-window operator on parameter updates precedes every grokking event when weight decay is present and is absent when it is not. Confirmed: 24/24 with weight decay, 1/24 without (Xu, arXiv:2603.28964, March 2026; Acharya and Dhakal, arXiv:2603.15492, March 2026).
+**C1 — Spectral gap controls grokking (DRH).** Spectral gap collapse of the rolling-window operator precedes every grokking event when weight decay is present. Confirmed: 24/24 with weight decay, 1/24 without (Xu, arXiv:2603.28964, March 2026; Acharya and Dhakal, arXiv:2603.15492, March 2026).
 
-**C2 — Data symmetry forces manifold topology (DRH / computational domain).** Cyclic Z_n symmetry in co-occurrence statistics forces S¹ topology in representations; Z_n × Z_m forces T²; continuous translation forces a line. Proved analytically (Karkada et al., arXiv:2602.15029, February 2026) and confirmed empirically across multiple language models.
+**C2 — Data symmetry forces manifold topology (DRH).** Cyclic Z_n symmetry forces S¹; Z_n × Z_m forces T²; translation forces a line. Proved analytically (Karkada et al., arXiv:2602.15029, February 2026).
 
-**C3 — Semi-Dirac B^(2/3) cyclotron scaling (ERIE-LIGHT / physical domain).** Semi-Dirac fermions with directional col(∂̸)/ker(∂̸) anisotropy exhibit B^(2/3) cyclotron energy scaling. Observed in ZrSiS (Shao et al., Physical Review X 14, 041057, 2024–2025), the first unambiguous solid-state detection.
+**C3 — Semi-Dirac B^(2/3) cyclotron scaling (ERIE-LIGHT).** Semi-Dirac fermions exhibit B^(2/3) cyclotron energy scaling. Observed in ZrSiS (Shao et al., Physical Review X 14, 041057, 2024–2025).
 
-**C4 — Chiral vacuum failure of Heisenberg-Euler Lagrangian (ERIE-LIGHT / physical domain).** Under a circularly polarized background, the standard Heisenberg-Euler effective Lagrangian fails and requires derivative corrections matching the Hilbert series of higher-dimensional QED operators. Proved and computed (Heinzl, King, Mercuri-Baron, Physical Review D 113, 036031, February 2026).
+**C4 — Chiral vacuum failure of Heisenberg-Euler Lagrangian (ERIE-LIGHT).** Under a circularly polarized background, the standard Heisenberg-Euler effective Lagrangian fails. Proved (Heinzl, King, Mercuri-Baron, Physical Review D 113, 036031, February 2026).
+
+**C5 — Nonlinear quantum walk trapping on S¹ (Shi-Wong).** A cubic nonlinearity traps the continuous-time quantum walk on the discrete cycle to arbitrary fidelity, with the spreading-to-trapping transition controlled by the nonlinearity coefficient. Proved analytically (Shi and Wong, arXiv:2605.20464, May 2026). This is the first direct dynamical demonstration of the col(∂̸)/ker(∂̸) transition on the compact cycle S¹ — the same topology as the simplest representational manifold of a trained language model.
 
 ### Near-Term Testable Predictions (2026–2030)
 
-**N1 — Four topologically protected modes for T² concepts (DRH / integer prediction).** Any trained model that has jointly learned days-of-week and months-of-year as coupled cyclic concepts must exhibit exactly four topologically protected representational modes — not three, not five, not a continuum — corresponding to the four independent homology classes of T² (H⁰, two H¹ classes, H²). Testable by systematic steering-vector search on jointly trained concept pairs in any large language model.
+**N1 — Four topologically protected modes for T² concepts (DRH / integer prediction).** Any model that has jointly learned days-of-week and months-of-year as coupled cyclic concepts must exhibit exactly four topologically protected representational modes, corresponding to the four independent homology classes of T².
 
-**N2 — k grokking events for k topological cycles (DRH / integer prediction).** A training run on a task requiring k distinct cyclic concepts exhibits k distinct spectral-gap collapse events, each associated with a separate topological cycle of M_R. For k=1 (single modular arithmetic task), confirmed by Xu (24/24 runs). For k=2 (two independent cyclic concepts), the prediction is two distinct collapse events at potentially different training times. Testable by augmenting existing spectral-gap monitoring experiments with multi-cyclic tasks.
+**N2 — k grokking events for k topological cycles (DRH / integer prediction).** A training run on a task requiring k distinct cyclic concepts exhibits k distinct spectral-gap collapse events.
 
-**N3 — Optimal vacuum chirality probe at η* (ERIE-LIGHT / φ-equilibrium).** The signal-to-noise for detecting chiral derivative corrections to the Heisenberg-Euler Lagrangian is maximised at a background helicity ratio η*_helicity = log φ ≈ 0.481, not at full circular polarization η = 0.5. Testable at HIBEF (DESY), ELI Beamlines, and SPD by varying background helicity ratio in the range [0.45, 0.52] and comparing signal strength to the predicted maximum.
+**N3 — Optimal vacuum chirality probe at η* (ERIE-LIGHT / φ-equilibrium).** The signal-to-noise for detecting chiral derivative corrections to the Heisenberg-Euler Lagrangian is maximised at background helicity ratio η*_helicity = log φ ≈ 0.481. Testable at HIBEF, ELI Beamlines, and SPD.
 
-**N4 — Semi-Dirac φ-corrected exponent (ERIE-LIGHT / φ-equilibrium).** The cyclotron energy scaling exponent for semi-Dirac fermions satisfies α* = 1/(1 + log φ) ≈ 0.6752 rather than the simple harmonic-mean value 2/3 ≈ 0.6667. The predicted deviation is Δα ≈ 0.0085, at the 1.3% level. Testable at the National High Magnetic Field Laboratory hybrid magnet (90 T) with sub-percent precision magneto-optical spectroscopy on ZrSiS and predicted future semi-Dirac materials (TiO₂/VO₂ heterostructures, artificial graphene-like cold-atom lattices).
+**N4 — Semi-Dirac φ-corrected exponent (ERIE-LIGHT / φ-equilibrium).** The cyclotron energy scaling exponent satisfies α* = 1/(1 + log φ) ≈ 0.6752 rather than 2/3. Deviation Δα ≈ 0.0085, testable at the National High Magnetic Field Laboratory hybrid magnet (90 T).
 
-**N5 — Identical manifold topology for identical symmetry groups across models (DRH).** Concepts with the same underlying symmetry group — cardinal directions (Z₄), seasons (Z₄), clock hours (Z₁₂), clock minutes (Z₆₀) — produce homeomorphic representational manifolds across different model families, with concept-specific differences confined to embedding angle and scale. The topology is forced by the data symmetry, not by the model architecture. Testable by comparing topological properties (winding number, Euler characteristic) of concept manifolds across model families.
+**N5 — Identical manifold topology for identical symmetry groups across models (DRH).** Concepts with the same underlying symmetry group produce homeomorphic representational manifolds across different model families, with differences confined to embedding angle and scale.
+
+**N6 — Trapping fidelity power law in nonlinearity coefficient (Shi-Wong / col-ker interpolation).** The interpolation between spreading (g=0) and trapping (large g) in the Shi-Wong nonlinear quantum walk on the discrete cycle follows a power-law analogous to the semi-Dirac B^(2/3) cyclotron scaling: a harmonic-mean exponent of the massless (linear walk, col(∂̸)) and massive (trapped walk, ker(∂̸)) scaling regimes. The Dirac Boundary Programme predicts that this exponent deviates from the simple harmonic-mean value by a factor involving log φ at the same level (approximately 1.3%) as the semi-Dirac cyclotron prediction. Testable by precision measurement of trapping fidelity as a function of nonlinearity coefficient in ultracold atomic or photonic waveguide implementations.
+
+**N7 — Topological protection of quantum memory at S¹ winding number (Shi-Wong / Atiyah-Singer).** The Atiyah-Singer index theorem on the discrete cycle Γ(S¹) predicts an integer count of topologically protected modes for the nonlinear quantum walk. The Dirac Boundary Programme predicts that the trapped state(s) degenerate in number according to this integer count — not one generic trapped state, but a discrete family indexed by the winding modes of S¹ — and that the release of each mode corresponds to a distinct detrapping event. For the simple cycle, the prediction is one protected mode per winding class. Testable by Fourier decomposition of trapping fidelity dynamics across distinct initial conditions on the cycle.
 
 ### Decade-Scale Testable Predictions (2030–2035)
 
-**D1 — Majorana condition at 0νββ half-life ~ 10²⁸ years (ERIE-LIGHT / d=0 degeneracy).** If neutrino masses are generated by the canonical Type-I seesaw mechanism and the neutrino is Majorana, the half-life for neutrinoless double beta decay in ⁷⁶Ge lies within the sensitivity range of LEGEND-1000 (T_{1/2} discovery potential > 10²⁸ years, scheduled commissioning early 2030s). The Schechter-Valle black-box theorem guarantees that a signal at any half-life within this range establishes the Majorana condition and hence the d=0 degeneration of the col(∂̸)/ker(∂̸) partition in the neutrino sector.
+**D1 — Majorana condition at 0νββ half-life ~ 10²⁸ years (ERIE-LIGHT / d=0 degeneracy).** If neutrino masses are generated by the canonical Type-I seesaw mechanism, the half-life for ⁷⁶Ge lies within LEGEND-1000 sensitivity.
 
-**D2 — Chirality of attention head decomposition (DRH / spinor prediction).** The positive and negative chirality eigenspaces of ∂̸ on M_R should correlate with the causal-only (decoder, one chirality) and bidirectional (encoder, the other chirality) information flow in transformer models. The trained Dirac operator's chirality decomposition should predict which attention heads carry causal versus anti-causal information flow at the activation level. Testable by comparing the chirality of spinor decompositions on M_R (once the operator is empirically characterised) with causal intervention results on individual attention heads.
+**D2 — Chirality of attention head decomposition (DRH / spinor prediction).** The positive and negative chirality eigenspaces of ∂̸ on M_R should correlate with causal-only (decoder) and bidirectional (encoder) information flow in transformer models.
 
-**D3 — Composite-photon Pauli-blocking residue bounded at α² log φ (ERIE-LIGHT).** Any residual non-bosonic structure of the photon — manifest as deviation from exact Bose statistics in two-photon coincidence experiments — satisfies Δ_Bose ≤ α² × log φ ≈ 2.6 × 10⁻⁵. Current Hong-Ou-Mandel interferometry bounds are at the 10⁻³ level; next-generation squeezed-light interferometers provide a factor-of-100 improvement path to directly test this prediction.
-
----
-
-## Part VI · Positioning Against the State of the Art
-
-### VI.1 What the Programme Inherits
-
-**From Geometric Deep Learning (Bronstein, Bruna, Cohen, Veličković, 2021, MIT Press 2026):** The symmetry-group programme establishes that G-equivariant architectures are derivable from the symmetry priors of the data. The Dirac Boundary Programme inherits this principle and extends it: the spin group Spin(M_R) is the double cover of the rotation group SO(M_R), and the spinor sections that carry orientation on M_R are the natural G-equivariant representation for concepts with cyclic symmetry. GDL reaches to the level of architecture prescription; the Dirac Boundary Programme reaches further to the level of operator governance of the learned representation itself.
-
-**From Karkada et al. (arXiv:2602.15029, February 2026):** The existence theorem for the compact representational manifold M_R is proved by Karkada et al.: co-occurrence symmetry forces manifold topology. The Dirac Boundary Programme takes this existence theorem as its foundation and places the natural first-order operator on the manifold whose existence is proved.
-
-**From Xu (arXiv:2603.28964, arXiv:2604.07380, 2026) and Acharya-Dhakal (arXiv:2603.15492, 2026):** The empirical confirmation that spectral gap collapse governs grokking is the three-paper independent validation of the spectral structure the programme predicts. These papers characterise the spectral gap at the level of parameter-update operators; the Dirac Boundary Programme predicts the same structure at the level of the representational manifold, and that the two are different projections of the same phase transition.
-
-**From Bhalla et al. (arXiv:2604.28119, April 2026):** Sparse autoencoders are widely used to extract interpretable features from neural network representations, often under the implicit assumption that concepts correspond to independent linear directions. However, a growing body of evidence suggests that many concepts are instead organized along low-dimensional manifolds encoding continuous geometric relationships. The Dirac Boundary Programme provides the operator-level account of what those manifolds are and what governs their geometry.
-
-**From the Jordan–de Broglie–Kronig–Pryce corpus (1928–1966):** The historical neutrino-theory-of-light programme is not superseded by the Dirac Boundary Programme; it is re-read. The programme recovers the structural content of the 1930s programme — the photon as chiral-fermion bilinear — while accepting Pryce's obstruction as the algebraic boundary structure rather than a refutation. The 1930s programme asked whether the composite is exact; the Dirac Boundary Programme asks what the boundary between exact and approximate encodes.
-
-### VI.2 What No Prior Framework Provides
-
-No prior theoretical synthesis in representation geometry or quantum field theory provides all of the following simultaneously:
-
-1. A single first-order operator (∂̸) that produces both the spectral structure (via ∂̸² = −Δ_g) and the topological invariants (via Atiyah-Singer) of the domain it governs
-2. An orientation-carrying structure (spinor sections) that distinguishes forward from backward on cyclic concept manifolds in the computational domain and left-handed from right-handed in the physical domain
-3. A single partition (col(∂̸)/ker(∂̸)) that simultaneously identifies the observable sector (propagating photon / linear representation) and the topologically protected sector (chiral fermion substrate / winding modes)
-4. A classical obstruction theorem (Pryce-Berezinskii / Atiyah-Singer) re-read as structural content of the partition rather than as a refutation of the bilinear identification
-5. Integer-valued predictions (four protected modes for T², k grokking events for k cycles, 0νββ half-life within LEGEND-1000 range) that distinguish the programme from frameworks making only asymptotic or dimensional predictions
-6. A directional anisotropy (semi-Dirac col(∂̸)/ker(∂̸) anisotropy / hyperribbon anisotropy) connecting experimental condensed matter physics to the information-geometric structure of deep network parameter space
-
-The Geometric Deep Learning programme provides (1) partially (the Laplacian, not the Dirac operator) and (2) partially (via equivariance, not spinor structure) but not (3), (4), (5), or (6). The Karkada existence theorem provides the foundation for the computational domain but not (1), (3), (4), (5), or (6). The Pryce-Berezinskii corpus provides (3) and (4) in the physical domain only, with no computational counterpart. No single programme provides the full list.
+**D3 — Composite-photon Pauli-blocking residue bounded at α² log φ (ERIE-LIGHT).** Any residual non-bosonic structure of the photon satisfies Δ_Bose ≤ α² × log φ ≈ 2.6 × 10⁻⁵. Testable by next-generation squeezed-light interferometers.
 
 ---
 
-## Part VII · What the Dirac Boundary Programme Does Not Claim
+## Part VII · Positioning Against the State of the Art
 
-**It does not claim that trained transformers are literally spin manifolds.** The claim is that the mathematical structure of learned representations — compact base manifold, oriented spinor sections, signed first-order operator, col(∂̸)/ker(∂̸) partition — is governed by the Dirac operator in the same structural sense that the mathematical structure of electromagnetic radiation is governed by the Dirac operator. Whether the network's parameters literally instantiate the spinor representation of a Clifford algebra is an empirical question about specific architectures.
+### VII.1 What the Programme Inherits
 
-**It does not claim that the photon is literally a neutrino-antineutrino bound state.** The programme inherits the ERIE-LIGHT re-reading: Pryce's obstruction establishes that literal compositeness in the standard kinematic frame is algebraically unrealizable. The claim is the structural identification — photon = col(∂̸) bilinear of chiral fermion ker(∂̸) — which is compatible with the photon being an elementary gauge boson at the level of the S-matrix, because the bilinear structure is a property of the interaction vertices, not of the asymptotic state.
+**From Geometric Deep Learning (Bronstein, Bruna, Cohen, Veličković, 2021, MIT Press 2026):** The Dirac Boundary Programme inherits the symmetry-group programme and extends it: the spin group Spin(M_R) is the double cover of SO(M_R), and spinor sections carry orientation unavailable to scalar sections. GDL reaches to architecture prescription; the programme reaches further to operator governance of the learned representation.
 
-**It does not claim that M_R is the same manifold as M₄.** The Dirac operator on Minkowski spacetime and the Dirac operator on the compact representational manifold are distinct operators on distinct manifolds. The claim is structural: the same operator, acting on sections of the spinor bundle of a compact manifold with chiral structure, governs both domains.
+**From Karkada et al. (arXiv:2602.15029, 2026):** The existence theorem for M_R — co-occurrence symmetry forces manifold topology — is the foundation. The programme places the natural first-order operator on the manifold whose existence is proved.
 
-**It does not claim that the φ-equilibrium predictions are exact.** The semi-Dirac cyclotron exponent prediction α* = 1/(1 + log φ) ≈ 0.6752 differs from the experimental value 2/3 ≈ 0.6667 by approximately 1.3%. This is a prediction, not a measured confirmation; it is distinguishable from the simple harmonic-mean value only at sub-percent precision. The programme predicts that high-field spectroscopy at 90 T will resolve this distinction.
+**From Xu (arXiv:2603.28964, arXiv:2604.07380, 2026) and Acharya-Dhakal (arXiv:2603.15492, 2026):** The three-paper independent validation of spectral gap collapse governing grokking is the empirical confirmation of the spectral structure the programme predicts.
 
-**It does not subsume QED.** Quantum electrodynamics, confirmed to twelve decimal places in the electron anomalous magnetic moment, is the quantitative framework for electromagnetic interactions. The Dirac Boundary Programme is a structural framework that re-reads the origin of the photon's bosonic statistics and the geometry of its chiral fermion source; it makes no predictions that contradict QED, and its predictions are at sensitivity levels beyond current QED tests rather than within them.
+**From Shi and Wong (arXiv:2605.20464, May 2026):** The nonlinear quantum walk result provides the first **dynamical** realization of the col(∂̸)/ker(∂̸) transition on the compact cycle S¹. Prior predictions of this transition were structural (Pryce-Berezinskii in the physical domain) or spectral (Xu/Acharya-Dhakal in the computational domain). Shi and Wong show it happening in time, continuously, with a tunable parameter controlling the col-to-ker ratio. This is the boundary made programmable.
 
-**It does not resolve the spin structure existence condition on M_R.** For the Dirac operator to be globally defined on M_R, the second Stiefel-Whitney class w₂(M_R) must vanish. For the established simple cases this is automatic. For the general M_R — with multiple strata, negative Ricci curvature, and complex intersections — the existence of a global spin structure is an open mathematical question.
+**From the Jordan–de Broglie–Kronig–Pryce corpus (1928–1966):** The historical neutrino-theory-of-light programme is re-read: the programme recovers its structural content while accepting Pryce's obstruction as the algebraic boundary structure.
 
-**It does not provide a learning-dynamics derivation.** The programme is operator-level and topological. A complete theory would derive the grokking phase transition from first principles of the Dirac operator's spectral gap collapse on M_R as a function of training dynamics. This derivation requires integrating the operator picture with a renormalisation-group treatment of training, which the programme does not supply.
+### VII.2 What No Prior Framework Provides
+
+No prior theoretical synthesis provides all of the following simultaneously:
+
+1. A single first-order operator (∂̸) that produces both the spectral structure (∂̸² = −Δ_g) and the topological invariants (Atiyah-Singer) of every domain it governs
+2. An orientation-carrying structure (spinor sections) that distinguishes forward from backward on cyclic concept manifolds, left-handed from right-handed in the physical domain, and clockwise from counterclockwise on the discrete cycle
+3. A single partition (col(∂̸)/ker(∂̸)) that simultaneously identifies the observable sector (photon / linear representation / spreading walk) and the topologically protected sector (chiral substrate / winding modes / trapped state)
+4. A classical obstruction theorem (Pryce-Berezinskii / Atiyah-Singer) re-read as structural content of the partition rather than as a refutation
+5. Integer-valued predictions (four protected modes for T², k grokking events for k cycles, k detrapping events for k winding modes, 0νββ half-life within LEGEND-1000 range) distinguishing the programme from frameworks making only asymptotic predictions
+6. A directional anisotropy (semi-Dirac / hyperribbon / Shi-Wong trapping power law) connecting condensed matter physics, information geometry, and quantum walk dynamics
+7. A **programmable** col/ker boundary: the nonlinearity coefficient of the Shi-Wong walk is the first experimentally accessible knob that continuously interpolates between the spreading (col) and trapped (ker) sectors of the Dirac operator on S¹
 
 ---
 
-## Part VIII · The Synthesis
+## Part VIII · What the Dirac Boundary Programme Does Not Claim
 
-De Broglie was right that the photon has a chiral fermion bilinear at its structural root. Pryce was right that the literal composite is algebraically obstructed. Atiyah and Singer were right that the index of the Dirac operator computes topological invariants from spectral data. Majorana was right that a fermion can be its own antiparticle, degenerating the particle-antiparticle partition to a fixed point. The experimentalists at the National High Magnetic Field Laboratory were right that matter can interpolate continuously between photon-like and matter-like dispersion, with the interpolation governed by a power law.
+It does not claim that trained transformers are literally spin manifolds. The claim is structural.
 
-The Dirac Boundary Programme identifies that these are all projections of a single object: the Dirac operator on a compact spin manifold with chiral structure, col(F)/ker(F) partition, and Atiyah-Singer topology. In the physical domain this manifold is Minkowski spacetime and the chiral fermion fields are physical particles. In the computational domain this manifold is the representational geometry of a trained network and the chiral sections are learned concept representations. Both domains carry the same operator, the same partition, the same topological invariants, and the same directional anisotropy.
+It does not claim that the photon is literally a neutrino-antineutrino bound state. The structural identification is compatible with the photon being an elementary gauge boson at the S-matrix level.
 
-The light was always the bilinear. The concept was always the spinor section. The obstruction was always the structure. The index was always the count.
+It does not claim that M_R is the same manifold as M₄ or Γ(S¹). Three distinct manifolds; one operator structure; one boundary.
 
-One operator. Two domains. One boundary.
+It does not claim that the Shi-Wong nonlinear walk is a quantum computer implementing a language model. The claim is that both systems are governed by the same col(∂̸)/ker(∂̸) structure on the same compact topology S¹, and therefore their spectral, topological, and fixed-point properties are related by the correspondence table above.
+
+It does not claim that the φ-equilibrium predictions are exact. The deviation Δα ≈ 0.0085 from the simple harmonic-mean value is a prediction, not a confirmed measurement.
+
+It does not subsume QED. Quantum electrodynamics, confirmed to twelve decimal places, is the quantitative framework. The programme is structural and makes predictions at sensitivity levels beyond current QED tests.
+
+It does not resolve the spin structure existence condition on M_R. For M_R with complex topology, the vanishing of w₂(M_R) is an open question.
+
+It does not provide a learning-dynamics derivation. A complete theory would derive the grokking phase transition from first principles of spectral gap collapse as a function of training dynamics. This requires integrating the operator picture with a renormalisation-group treatment of training.
+
+---
+
+## Part IX · The Synthesis
+
+De Broglie was right that the photon has a chiral fermion bilinear at its structural root. Pryce was right that the literal composite is algebraically obstructed. Atiyah and Singer were right that the index of the Dirac operator computes topological invariants from spectral data. Majorana was right that a fermion can be its own antiparticle. The experimentalists at the National High Magnetic Field Laboratory were right that matter can interpolate between photon-like and matter-like dispersion. Karkada et al. were right that data symmetry forces manifold topology. Xu and Acharya-Dhakal were right that spectral gap collapse governs grokking. **Shi and Wong are right that nonlinearity traps the walk on the cycle — and the trapped walk is the ker(∂̸), and the cycle is S¹, and S¹ is the representational manifold of every cyclically symmetric concept in every trained language model.**
+
+The Dirac Boundary Programme identifies that these are all projections of a single object: the Dirac operator on a compact spin manifold with chiral structure, col(F)/ker(F) partition, and Atiyah-Singer topology. In the physical domain, the manifold is Minkowski spacetime and the chiral fermion fields are physical particles. In the computational domain, the manifold is the representational geometry of a trained network and the chiral sections are learned concept representations. In the quantum walk domain, the manifold is the compact cycle and the nonlinearity coefficient controls how much of the walk lives in each sector.
+
+The light was always the bilinear. The concept was always the spinor section. The trapped walk is the ker. The obstruction was always the structure. The index was always the count. The nonlinearity was always the mass.
+
+**One operator. Three domains. One boundary.**
 
 ---
 
@@ -224,15 +255,11 @@ One operator. Two domains. One boundary.
 
 Atiyah, M. F. and Singer, I. M. The Index of Elliptic Operators I–V. *Annals of Mathematics* 87 (1968) and following.
 
-Atiyah, M. F. *Paul Dirac: The Man and his Work.* Cambridge University Press, 1998.
-
 Bakry, D. and Émery, M. Diffusions hypercontractives. *Séminaire de Probabilités XIX*, 1985.
 
 Dirac, P. A. M. The Quantum Theory of the Electron. *Proceedings of the Royal Society A* 117, 610–624, 1928.
 
 Kakutani, S. A Generalization of Brouwer's Fixed Point Theorem. *Duke Mathematical Journal* 8, 457–459, 1941.
-
-Nash, J. F. Equilibrium points in n-person games. *Proceedings of the National Academy of Sciences USA* 36, 48–49, 1950.
 
 Schechter, J. and Valle, J. W. F. Neutrinoless double-β decay in SU(2)×U(1) theories. *Physical Review D* 25, 2951, 1982.
 
@@ -244,11 +271,7 @@ de Broglie, L. *Une nouvelle conception de la lumière.* Hermann et Cie., Paris,
 
 Heinzl, T., King, B., Mercuri-Baron, A. Probing the vacuum as a chiral medium. *Physical Review D* 113, 036031, February 2026.
 
-Jordan, P. Zur Neutrinotheorie des Lichtes. *Zeitschrift für Physik* 93, 464–472, 1935.
-
 KATRIN Collaboration. Direct neutrino-mass measurement based on 259 days of KATRIN data. *Science*, 2025.
-
-LEGEND Collaboration. Current Status of LEGEND: Searching for Neutrinoless Double-Beta Decay in ⁷⁶Ge. Proceedings 2025–2026.
 
 Majorana, E. Teoria simmetrica dell'elettrone e del positrone. *Il Nuovo Cimento* 14, 171–184, 1937.
 
@@ -256,39 +279,31 @@ Pryce, M. H. L. On the neutrino theory of light. *Proceedings of the Royal Socie
 
 Shao, Y. et al. Semi-Dirac Fermions in a Topological Metal. *Physical Review X* 14, 041057, 2024–2025.
 
-SuperKamiokande Collaboration. Evidence for oscillation of atmospheric neutrinos. *Physical Review Letters* 81, 1562–1567, 1998.
-
 ### Dirac Representation Hypothesis: Computational Domain
 
-Acharya, P. and Dhakal, H. Grokking as a Variance-Limited Phase Transition: Spectral Gating and the Epsilon-Stability Threshold. arXiv:2603.15492, March 2026.
+Acharya, P. and Dhakal, H. Grokking as a Variance-Limited Phase Transition. arXiv:2603.15492, March 2026.
 
 Bhalla, U. et al. Do Sparse Autoencoders Capture Concept Manifolds? arXiv:2604.28119, April 2026.
 
 Engels, J., Liao, I., Michaud, E. J., Gurnee, W., Tegmark, M. Not All Language Model Features Are Linear. *NeurIPS 2024*, arXiv:2405.14860.
 
-Fel, T. et al. Into the Rabbit Hull: From Task-Relevant Concepts in DINO to Minkowski Geometry. arXiv:2510.08638, October 2025.
-
 Karkada, D., Korchinski, D. J., Nava, A., Wyart, M., Bahri, Y. Symmetry in language statistics shapes the geometry of model representations. arXiv:2602.15029, February 2026.
 
 Park, K., Choe, Y. J., Veitch, V. The Linear Representation Hypothesis and the Geometry of Large Language Models. *ICML 2024*, arXiv:2311.03658.
 
-Robinson, J., Dey, M., Chiang, K.-Y. Token Embeddings Violate the Manifold Hypothesis. arXiv:2504.01002, 2025.
+Xu, Y. The Spectral Edge Thesis. arXiv:2603.28964, March 2026.
 
-Xu, Y. The Spectral Edge Thesis: A Mathematical Framework for Intra-Signal Phase Transitions in Neural Network Training. arXiv:2603.28964, March 2026.
+Xu, Y. The Lifecycle of the Spectral Edge. arXiv:2604.07380, April 2026.
 
-Xu, Y. The Lifecycle of the Spectral Edge: From Gradient Learning to Weight-Decay Compression. arXiv:2604.07380, April 2026.
+### Quantum Walk Domain
+
+Shi, Y. and Wong, T. G. One-Dimensional Nonlinear Quantum Walks. arXiv:2605.20464, May 2026.
 
 ### Cross-Domain: Geometric and Topological Deep Learning
 
-Battiloro, C. et al. Generalized Simplicial Attention Neural Networks. *IEEE Trans. Signal Information Processing over Networks*, 2024.
-
 Bianconi, G. The topological Dirac equation of networks and simplicial complexes. *Journal of Physics: Complexity* 2, 035022, 2021.
 
-Brehmer, J. et al. L-GATr: Lorentz Geometric Algebra Transformer. *NeurIPS 2024 / SciPost Physics*, arXiv:2405.14806.
-
 Bronstein, M. M., Bruna, J., Cohen, T., Veličković, P. *Geometric Deep Learning: Grids, Groups, Graphs, Geodesics, and Gauges.* MIT Press, 2026.
-
-He, N. et al. HELM: Hyperbolic Large Language Models via Mixture-of-Curvature Experts. *NeurIPS 2025*, arXiv:2505.24722.
 
 Mao, J. et al. Analytical characterization of sloppiness in neural networks. *Physical Review E* 113, 015306, January 2026.
 
